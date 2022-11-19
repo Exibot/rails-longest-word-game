@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+ .letras-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .letra{
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px;
+  background-color: #3498DC;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2);
+ }
+
+ .formulario{
+  margin-top: 20px;
+ }
